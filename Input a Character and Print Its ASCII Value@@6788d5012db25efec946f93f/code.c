@@ -2,7 +2,7 @@
 int main(){
 char value ;
 scanf("%c",&value);
-printf("%d",value);
+printf("ASII Value: %d",value);
 
 
     return 0;
