@@ -14,6 +14,7 @@ for(int i=2;i*i<=n;i++){
 }
 if(isprime){
     printf("Prime");
+}
 else{
     printf("Not Prime");
 }
