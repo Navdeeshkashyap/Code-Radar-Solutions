@@ -2,11 +2,11 @@
 int main(){
 int a;
 scanf("%d",&a);
-if(a>=b){
-    printf("Yes");
+if(a>=60){
+    printf("Eligible");
 }
 else{
-    printf("No");
+    printf("Not Eligible");
 }
 
 
