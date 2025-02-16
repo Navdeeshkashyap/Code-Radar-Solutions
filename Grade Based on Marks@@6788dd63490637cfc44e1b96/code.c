@@ -9,7 +9,7 @@ else if(a>=80){
     printf("B");
 }
 else if(a>=70){
-    printf("c");
+    printf("C");
 }
 else if(a>=60){
     printf("D");
