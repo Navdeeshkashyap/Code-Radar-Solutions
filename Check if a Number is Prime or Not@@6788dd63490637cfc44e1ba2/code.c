@@ -2,13 +2,15 @@
 int main(){
 int n;
 scanf("%d",&n);
-for(int i=1;i*i<=n;i++){
+for(int i=2;i*i<=n;i++){
     if(n%i==0){
         printf("Not Prime");
+        break;
     }
     else{
-        printf("Prime");
+         printf("Prime");
     }
 }
+
     return 0;
 }
