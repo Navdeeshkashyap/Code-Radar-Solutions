@@ -7,18 +7,19 @@ switch(op){
     case'+':
      int result=a+b;
     printf("%d",result);
+    break;
 case'-':
      int result=a-b;
     printf("%d",result);
-
+break;
 case'*':
      int result=a*b;
     printf("%d",result);
-
+break;
 case'/':
      int result=a/b;
     printf("%d",result);
+break;
 }
-
     return 0;
 }
