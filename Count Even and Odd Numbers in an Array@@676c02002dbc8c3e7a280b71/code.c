@@ -16,7 +16,7 @@ for(int i=0;i<n;i++){
    }
 }
 
-printf("%d %d",evencount,oddcount)
+printf("%d %d",evencount,oddcount);
 
     return 0;
 }
