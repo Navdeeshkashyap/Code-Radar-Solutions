@@ -18,6 +18,6 @@ for(int i=1;i<n;i++){
         min=arr[i];
     }
 }
-printf("%d%d",min,max);
+printf("%d%d", min, max);
     return 0;
 }
