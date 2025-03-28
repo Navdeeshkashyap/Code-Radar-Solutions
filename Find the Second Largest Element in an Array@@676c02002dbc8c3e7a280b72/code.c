@@ -17,6 +17,9 @@ for(int i=0;i<n;i++){
         max2=arr[i];
     }
 }
+if(max2==INT_MIN){
+    printf("-1");
+}
 printf("%d",max2);
     return 0;
 }
