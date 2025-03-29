@@ -22,6 +22,5 @@ revarr(arr,k,n-1);
 for(int i=0;i<n;i++){
     printf("%d\n",arr[i]);
 }
-printf("\n");
     return 0;
 }
