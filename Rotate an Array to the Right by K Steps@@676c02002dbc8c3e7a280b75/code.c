@@ -1,4 +1,4 @@
-#include<stdio>
+#include<stdio.h>
 void revarr(int *arr,int str,int end){
     while(str<end){
     int temp=arr[str];
