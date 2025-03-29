@@ -18,12 +18,14 @@ for(int i=0;i<n;i++){
             count++;
             freq[j]=0;
         }
-        if(freq[i]!=0){
-    freq[i]=count;}
+
     }
-    if (freq[i] != 0) {
-    printf("%d %d\n", arr[i], freq[i]);
+    if (freq[i] != 0) {  // Store frequency only for non-duplicate (unmarked) values
+            freq[i] = count;
+        }
 }
+if (freq[i] != 0) {
+    printf("%d %d\n", arr[i], freq[i]);
 }
 
 
