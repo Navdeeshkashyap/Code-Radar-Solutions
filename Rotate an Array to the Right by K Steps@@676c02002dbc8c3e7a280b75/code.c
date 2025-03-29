@@ -17,6 +17,7 @@ for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
 scanf("%d",&k);
+k = k % n;
 revarr(arr,0,n-1);
 revarr(arr,k,k-1);
 revarr(arr,k,n-1);
