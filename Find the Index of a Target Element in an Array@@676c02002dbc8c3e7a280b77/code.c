@@ -2,7 +2,7 @@
 
 int linsearch(int *arr,int n,int t){
     for(int i=0;i<n;i++){
-        if(t==arr[i]){
+        if(arr[i]==t){
             return i;
         }
     }
@@ -17,7 +17,7 @@ for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
 
-scanf("%d",t);
+scanf("%d",&t);
 printf("%d",linsearch(arr,n,t));
 
     return 0;
