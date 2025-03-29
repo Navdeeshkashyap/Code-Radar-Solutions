@@ -1,5 +1,4 @@
 #include<stdio>
-int main(){
 void revarr(int *arr,int str,int end){
     while(str<end){
     int temp=arr[str];
@@ -9,6 +8,8 @@ void revarr(int *arr,int str,int end){
     }
 
 }
+int main(){
+
 int n,k;
 scanf("%d",&n);
 int arr[n];
