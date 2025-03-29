@@ -1,5 +1,5 @@
 #include<stdio.h>
-int revarr(int *arr,int start,int end){
+void revarr(int *arr,int start,int end){
    while(start<end){
     int temp=arr[start];
     arr[start]=arr[end];
@@ -8,11 +8,11 @@ int revarr(int *arr,int start,int end){
    }
 }
 int main(){
-int n;
+int n,k;
 scanf("%d",&n);
 int arr[n];
 for(int i=0;i<n;i++){
-    scanf("%d",arr[i]);
+    scanf("%d",&arr[i]);
 }
 scanf("%d",k);
 
