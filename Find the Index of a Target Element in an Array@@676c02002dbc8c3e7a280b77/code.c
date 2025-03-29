@@ -6,7 +6,7 @@ int linsearch(int *arr,int n,int t){
             return i;
         }
     }
-    return -1
+    return -1;
 }
 int main(){
 
