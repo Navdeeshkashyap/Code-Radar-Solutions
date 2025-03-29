@@ -10,6 +10,7 @@ for(int i=0;i<n;i++){
 int freq[n];
 for(int i=0;i<n;i++){
     freq[i]=-1;
+}
 for(int i=0;i<n;i++){
     int count=1;
     for(int j=i+1;i<n;i++){
@@ -27,3 +28,4 @@ for(int i=0;i<n;i++){
 
     return 0;
 }
+
