@@ -7,10 +7,9 @@ for(int i=1;i<=n;i++){
     printf("*");
     for(int j=2;j<n;j++){
         if(i==1 || i==n){
-    printf("*");
-        }
-    }else{
-         printf(" ");
+        printf("*");}
+        else{
+        printf(" ");}
     }
     printf("*");
      printf("\n");
