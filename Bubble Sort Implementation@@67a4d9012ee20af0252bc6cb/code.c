@@ -12,5 +12,5 @@ void bubblesort(int *arr,int n){
             }
         }
     }
-    printarr(arr,n)
+    printarr(arr,n);
 }
